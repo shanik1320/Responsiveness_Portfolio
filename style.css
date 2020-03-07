@@ -2,11 +2,15 @@
     background: rgb(39, 205, 211);
     padding: 20px;
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
 }
-.row {
-    background: white;
-    color: rgb(39, 205, 211)
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+* {
+    box-sizing: border-box;
 }
