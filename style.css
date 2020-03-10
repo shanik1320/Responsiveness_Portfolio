@@ -22,19 +22,18 @@ body {
     width: auto;
 }
 
-* {
-    box-sizing: border-box;
-}
 .page-header {
     color: rgb(39, 205, 211);
 }
 .footer {
     background-color: gray;
-    position: relative;
-    height: 100px;
-    margin-top: -100px;
+    position: fixed;
+    height: 50px;
     clear: both;
     color: black;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 .float-left {
     float: left;
