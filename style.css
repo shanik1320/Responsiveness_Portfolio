@@ -18,8 +18,9 @@ body {
     color:white;
     border-bottom-color:black ;
 }
-.container {
+.container-1 {
     width: auto;
+    border-style: solid;
 }
 
 .page-header {
