@@ -1,5 +1,5 @@
 .wrapper {
-    width: 1024px;
+    width: 100%;
 }
 .navbar-brand {
     background: rgb(39, 205, 211);
@@ -18,4 +18,7 @@
 }
 * {
     box-sizing: border-box;
+}
+.page-header {
+    color: rgb(39, 205, 211);
 }
