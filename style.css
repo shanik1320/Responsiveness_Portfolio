@@ -19,20 +19,21 @@ body {
     border-bottom-style: solid black;
 }
 .container-1 {
-    width: 100%;
+    width: 50%;
     border-style: hidden;
 }
 .card {
-    margin: auto;
+    margin: unset;
+    padding: 10px;
 }
 p {
-    font-size: small;
+    font-size: medium;
 }
 .page-header {
     color: rgb(39, 205, 211);
 }
 .footer {
-    background-color: gray;
+    background-color: lightgrey;
     position: fixed;
     height: 50px;
     clear: both;
@@ -48,13 +49,13 @@ p {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 4px;
   }
   
   /* Create two equal columns that sits next to each other */
   .column {
     flex: 50%;
-    padding: 0 4px;
+    padding: 4px;
   }
   
   .column img {
